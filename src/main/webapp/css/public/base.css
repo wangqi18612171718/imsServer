@@ -1,0 +1,167 @@
+@CHARSET "UTF-8";
+
+.easyui-layout .side-menu-header {
+	background: #3cb283;
+	border: none;
+	height: 21px;
+	filter: none;
+}
+
+.easyui-layout .side-menu-header .panel-title {
+	height: 21px;
+	line-height: 21px;
+	font-family: arial;
+	font-size: 14px;
+	color: #fff;
+}
+
+.easyui-layout .side-menu-header .panel-tool {
+	height: 20px;
+	top: 45%;
+}
+
+.easyui-layout .side-menu-header .panel-tool a.layout-button-left {
+	width: 20px;
+	height: 20px;
+	background-image: url(../../Content/system/default/images/side-menu.png);
+}
+
+dl,dt,dd,menu {
+	margin: 0px;
+	padding: 0px;
+}
+
+#side-menu {
+	
+}
+
+#side-menu dt,#side-menu div,#side-menu a,#side-menu strong {
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	padding-left: 10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#side-menu dt,#side-menu strong {
+	/* 1st Level Title */
+	height: 32px;
+	line-height: 32px;
+	padding-left: 32px;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 1px solid #d9efe6;
+	color: #39a274;
+	background-color: #fff;
+	background-image: url(../../Content/system/default/images/side-menu.png);
+	background-repeat: no-repeat;
+	background-position: 8px -42px;
+}
+
+#side-menu dt:hover {
+	background-color: #fdfdf0;
+}
+
+#side-menu strong { /* Menu Name */
+	padding-left: 10px;
+	background-image: none;
+	background-color: #3cb283;
+	color: #fff;
+}
+
+#side-menu strong a {
+	display: inline-block;
+	float: right;
+	width: 20px;
+	height: 20px;
+	padding: 0px;
+	margin: 5px 10px;
+	background-image: url(../../Content/system/default/images/side-menu.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+}
+
+#side-menu strong a:hover {
+	background-color: none;
+	opacity: 1;
+}
+
+#side-menu div {
+	/* 2nd Level Title Folder*/
+	padding-left: 44px;
+	color: #063;
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url(../../Content/system/default/images/side-menu.png);
+	background-position: 12px -295px;
+	background-repeat: no-repeat;
+}
+
+#side-menu div:hover {
+	background-position: 12px -395px;
+	background-color: #c1e5d8;
+}
+
+#side-menu div.in {
+	background-position: 12px -345px;
+}
+
+#side-menu div.in:hover {
+	background-position: 12px -445px;
+}
+
+#side-menu dd,#side-menu dd span {
+	background-color: #e2f3ed;
+	display: none;
+}
+
+#side-menu dd.in,#side-menu dd span.in {
+	display: block;
+}
+
+#side-menu a {
+	padding-left: 44px;
+	color: #063;
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url(../../Content/system/default/images/side-menu.png);
+	background-position: 22px -145px;
+	background-repeat: no-repeat;
+}
+
+#side-menu a.active,#side-menu a.active:hover {
+	background-position: 22px -195px;
+	background-color: #f90;
+	color: #fff;
+}
+
+#side-menu a:hover {
+	background-color: #c1e5d8;
+	text-decoration: none;
+}
+
+#side-menu span {
+	display: block;
+}
+
+#side-menu dd span a {
+	padding-left: 64px;
+	background-position: 44px -145px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#side-menu dd span a.active {
+	background-position: 44px -195px;
+}
+
+#side-menu dd span a.active:hover {
+	background-position: 44px -195px;
+}
+
+#side-menu dt.in {
+	background-color: #e2f3ed;
+	border: none;
+}
